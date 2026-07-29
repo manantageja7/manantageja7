@@ -1,7 +1,9 @@
-<h1 align="center">Hi 👋, I'm Manan Tageja</h1>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2DD4BF&height=220&section=header&text=Manan%20Tageja&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=B.Tech%20CSE%20%7C%20AI%20%2B%20Full-Stack%20Developer&descAlignY=55&descSize=18" width="100%" />
+</p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2DD4BF&center=true&vCenter=true&width=600&lines=B.Tech+CSE+Student;AI+%2B+Full-Stack+Developer;Building+Multi-Modal+Deep+Learning+Systems;Always+Learning%2C+Always+Shipping" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2DD4BF&center=true&vCenter=true&width=600&background=0D1117&lines=B.Tech+CSE+Student;AI+%2B+Full-Stack+Developer;Building+Multi-Modal+Deep+Learning+Systems;Always+Learning%2C+Always+Shipping" alt="Typing SVG" />
 </p>
 
 
@@ -86,12 +88,12 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=manantageja7&show_icons=true&theme=radical&hide_border=true" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=manantageja7&layout=compact&theme=radical&hide_border=true" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=manantageja7&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=2DD4BF&icon_color=2DD4BF" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=manantageja7&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=2DD4BF" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=manantageja7&theme=radical&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=manantageja7&theme=dark&hide_border=true&background=0D1117&ring=2DD4BF&fire=2DD4BF&currStreakLabel=2DD4BF" />
 </p>
 
 ---
@@ -99,7 +101,15 @@
 ### 📈 Contribution Activity Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=manantageja7&theme=react-dark&hide_border=true&area=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=manantageja7&theme=github-compact&hide_border=true&bg_color=0D1117&color=2DD4BF&line=2DD4BF&point=ffffff&area=true&area_color=2DD4BF" />
+</p>
+
+---
+
+### 🏅 Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=manantageja7&theme=darkhub&no-frame=true&row=1&column=7" />
 </p>
 
 ---
@@ -107,10 +117,21 @@
 ### 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/manantageja7/manantageja7/output/github-contribution-grid-snake.svg" alt="Contribution Snake animation" />
+  <img src="https://raw.githubusercontent.com/manantageja7/manantageja7/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake animation" />
 </p>
 
 > **Setup note:** the snake graphic needs a one-time GitHub Action added to your profile repo (`manantageja7/manantageja7`) — see setup steps below.
+
+---
+
+### 🧊 3D Contribution Calendar
+*(renders live — no setup needed)*
+
+<p align="center">
+  <a href="https://github.com/manantageja7">
+    <img src="https://profile-3d-contrib.vercel.app/profile-3d-contrib/?username=manantageja7&theme=juicy_fresh" />
+  </a>
+</p>
 
 ---
 
@@ -127,4 +148,48 @@
   <img src="https://komarev.com/ghpvc/?username=manantageja7&style=for-the-badge&color=2dd4bf" alt="profile views" />
 </p>
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2DD4BF,100:0F172A&height=120&section=footer" width="100%" />
+</p>
+
 ---
+
+<details>
+<summary>⚙️ Snake animation setup (one-time, click to expand)</summary>
+
+To make the contribution snake actually animate, add this workflow file to your `manantageja7/manantageja7` repo at `.github/workflows/snake.yml`:
+
+```yaml
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch: {}
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: manantageja7
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+After it runs once (or trigger manually via **Actions → Generate Snake → Run workflow**), it creates an `output` branch containing the SVG — which is exactly the file the README image tag above points to.
+
+</details>
