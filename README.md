@@ -100,7 +100,6 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=manantageja7&theme=github-compact&hide_border=true&bg_color=0D1117&color=2DD4BF&line=2DD4BF&point=ffffff&area=true&area_color=2DD4BF" />
 </p>
 
----
 
 ### 🐍 Contribution Snake
 
@@ -108,16 +107,13 @@
   <img src="https://raw.githubusercontent.com/manantageja7/manantageja7/output/github-contribution-grid-snake.svg" alt="Contribution Snake animation" />
 </p>
 
-> **Setup note:** the snake graphic needs a one-time GitHub Action added to your profile repo (`manantageja7/manantageja7`) — see setup steps below.
-
 ---
 
 ### 🧊 3D Contribution Calendar
-*(renders live — no setup needed)*
 
 <p align="center">
   <a href="https://github.com/manantageja7">
-    <img src="https://profile-3d-contrib.vercel.app/profile-3d-contrib/?username=manantageja7&theme=juicy_fresh" />
+    <img src="https://isometric-contributions-spectrewolf8.onrender.com/api/graph?username=manantageja7&theme=dark&stats=true" />
   </a>
 </p>
 
