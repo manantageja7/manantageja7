@@ -42,10 +42,6 @@
 - Machine Learning, Computer Vision, Data Structures & Algorithms
 - Full-stack development (FastAPI, React, Node.js)
 
-### ⚡ Fun fact
-- Scored in the **Top 1% (Elite)** on NPTEL's Cloud Computing certification from IIT Kharagpur
-- Built an AI system that helps municipalities fix potholes faster 🕳️
-
 ---
 
 ### 💻 Tech Stack
@@ -86,10 +82,12 @@
 ---
 
 ### 📊 GitHub Stats
+*(needs your own instance URL — see setup steps below)*
 
 <p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=manantageja7&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=2DD4BF&icon_color=2DD4BF" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=manantageja7&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=2DD4BF" />
+  <img height="180" src="https://
+github-readme-stats-workoholic1.vercel.app/api?username=manantageja7&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=2DD4BF&icon_color=2DD4BF" />
+  <img height="180" src="https://github-readme-stats-workoholic1.vercel.app/api/top-langs/?username=manantageja7&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=2DD4BF" />
 </p>
 
 <p align="center">
@@ -117,7 +115,7 @@
 ### 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/manantageja7/manantageja7/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake animation" />
+  <img src="https://raw.githubusercontent.com/manantageja7/manantageja7/output/github-contribution-grid-snake.svg" alt="Contribution Snake animation" />
 </p>
 
 > **Setup note:** the snake graphic needs a one-time GitHub Action added to your profile repo (`manantageja7/manantageja7`) — see setup steps below.
@@ -191,5 +189,21 @@ jobs:
 ```
 
 After it runs once (or trigger manually via **Actions → Generate Snake → Run workflow**), it creates an `output` branch containing the SVG — which is exactly the file the README image tag above points to.
+
+</details>
+
+<details>
+<summary>⚙️ GitHub Stats self-host setup (one-time, click to expand)</summary>
+
+The public `github-readme-stats.vercel.app` service is shared by many users and frequently goes down (503 errors) due to rate limits. Self-hosting your own copy fixes this permanently:
+
+1. Go to the [github-readme-stats repo](https://github.com/anuraghazra/github-readme-stats) and click **Fork** (top right)
+2. Go to [vercel.com](https://vercel.com) → sign in with your GitHub account
+3. Click **Add New → Project**, then import your forked `github-readme-stats` repo
+4. Click **Deploy** (default settings are fine — no config needed)
+5. Once deployed, Vercel gives you a URL like `https://github-readme-stats-yourname.vercel.app`
+6. In your README, replace every `YOUR-INSTANCE-NAME.vercel.app` with that URL
+
+That's it — your stats cards will now render from your own dedicated instance instead of the overloaded public one.
 
 </details>
