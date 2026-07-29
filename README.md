@@ -1,4 +1,4 @@
-<p align="center">
+[<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2DD4BF&height=220&section=header&text=Manan%20Tageja&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=B.Tech%20CSE%20%7C%20AI%20%2B%20Full-Stack%20Developer&descAlignY=55&descSize=18" width="100%" />
 </p>
 
@@ -207,3 +207,4 @@ The public `github-readme-stats.vercel.app` service is shared by many users and 
 That's it — your stats cards will now render from your own dedicated instance instead of the overloaded public one.
 
 </details>
+](https://github-readme-stats-workoholic1.vercel.app/api/top-langs/?username=manantageja7&layout=compact)
