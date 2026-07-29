@@ -1,4 +1,4 @@
-[<p align="center">
+<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:2DD4BF&height=220&section=header&text=Manan%20Tageja&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=B.Tech%20CSE%20%7C%20AI%20%2B%20Full-Stack%20Developer&descAlignY=55&descSize=18" width="100%" />
 </p>
 
@@ -82,12 +82,10 @@
 ---
 
 ### 📊 GitHub Stats
-*(needs your own instance URL — see setup steps below)*
 
 <p align="center">
-  <img height="180" src="https://
-github-readme-stats-workoholic1.vercel.app/api?username=manantageja7&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=2DD4BF&icon_color=2DD4BF" />
-  <img height="180" src="https://github-readme-stats-workoholic1.vercel.app/api/top-langs/?username=manantageja7&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=2DD4BF" />
+  <img height="180" src="https://helio-github-stats.vercel.app/api?username=manantageja7&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=2DD4BF&icon_color=2DD4BF" />
+  <img height="180" src="https://helio-github-stats.vercel.app/api/top-langs?username=manantageja7&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=2DD4BF" />
 </p>
 
 <p align="center">
@@ -100,14 +98,6 @@ github-readme-stats-workoholic1.vercel.app/api?username=manantageja7&show_icons=
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=manantageja7&theme=github-compact&hide_border=true&bg_color=0D1117&color=2DD4BF&line=2DD4BF&point=ffffff&area=true&area_color=2DD4BF" />
-</p>
-
----
-
-### 🏅 Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=manantageja7&theme=darkhub&no-frame=true&row=1&column=7" />
 </p>
 
 ---
@@ -151,60 +141,3 @@ github-readme-stats-workoholic1.vercel.app/api?username=manantageja7&show_icons=
 </p>
 
 ---
-
-<details>
-<summary>⚙️ Snake animation setup (one-time, click to expand)</summary>
-
-To make the contribution snake actually animate, add this workflow file to your `manantageja7/manantageja7` repo at `.github/workflows/snake.yml`:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch: {}
-  push:
-    branches:
-      - main
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        id: snake
-        with:
-          github_user_name: manantageja7
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-After it runs once (or trigger manually via **Actions → Generate Snake → Run workflow**), it creates an `output` branch containing the SVG — which is exactly the file the README image tag above points to.
-
-</details>
-
-<details>
-<summary>⚙️ GitHub Stats self-host setup (one-time, click to expand)</summary>
-
-The public `github-readme-stats.vercel.app` service is shared by many users and frequently goes down (503 errors) due to rate limits. Self-hosting your own copy fixes this permanently:
-
-1. Go to the [github-readme-stats repo](https://github.com/anuraghazra/github-readme-stats) and click **Fork** (top right)
-2. Go to [vercel.com](https://vercel.com) → sign in with your GitHub account
-3. Click **Add New → Project**, then import your forked `github-readme-stats` repo
-4. Click **Deploy** (default settings are fine — no config needed)
-5. Once deployed, Vercel gives you a URL like `https://github-readme-stats-yourname.vercel.app`
-6. In your README, replace every `YOUR-INSTANCE-NAME.vercel.app` with that URL
-
-That's it — your stats cards will now render from your own dedicated instance instead of the overloaded public one.
-
-</details>
-](https://github-readme-stats-workoholic1.vercel.app/api/top-langs/?username=manantageja7&layout=compact)
