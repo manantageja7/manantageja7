@@ -104,14 +104,6 @@
 
 ---
 
-### 🏅 Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=manantageja7&theme=radical&no-frame=true&row=1&column=7" />
-</p>
-
----
-
 ### 🐍 Contribution Snake
 
 <p align="center">
@@ -136,43 +128,3 @@
 </p>
 
 ---
-
-<details>
-<summary>⚙️ Snake animation setup (one-time, click to expand)</summary>
-
-To make the contribution snake actually animate, add this workflow file to your `manantageja7/manantageja7` repo at `.github/workflows/snake.yml`:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch: {}
-  push:
-    branches:
-      - main
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        id: snake
-        with:
-          github_user_name: manantageja7
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
-After it runs once (or trigger manually via **Actions → Generate Snake → Run workflow**), it creates an `output` branch containing the SVG — which is exactly the file the README image tag above points to.
-
-</details>
